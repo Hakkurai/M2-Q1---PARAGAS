@@ -37,7 +37,7 @@ class MainMenuScene extends Phaser.Scene {
         quitButton.setScale(0.5);
         quitButton.setPosition(this.sys.game.config.width - quitButton.width / 3, quitButton.height / 3);
         quitButton.on('pointerdown', () => {
-            alert('You exited the game.');
+            alert('Exiting game.');
         });
 
     }
